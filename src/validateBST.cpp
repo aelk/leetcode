@@ -1,5 +1,7 @@
-// LeetCode Problem #98
-// https://oj.leetcode.com/problems/validate-binary-search-tree/
+/*
+ * LeetCode Problem #98
+ * https://oj.leetcode.com/problems/validate-binary-search-tree/
+ */
 
 class Solution {
 public:
