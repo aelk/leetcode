@@ -1,7 +1,7 @@
 /*
-* LeetCode Problem #169
-* https://oj.leetcode.com/problems/majority-element/
-*/
+ * LeetCode Problem #169
+ * https://oj.leetcode.com/problems/majority-element/
+ */
 
 // Note: "You may assume that the array is non-empty and the majority element always exists in the array."
 
@@ -10,9 +10,9 @@ public:
     int majorityElement(vector<int> &num) 
     {
         const int bound = floor(num.size()/2);
-    	map<int, int> occurences;
+    	map<int, int> occurrences;
         for (const auto &elem : num) {
-            if (++occurences[elem] > bound) {
+            if (++occurrences[elem] > bound) {
                 return elem;
             }
         }
